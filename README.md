@@ -8,7 +8,15 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+use <image-magnifier [resultDistance]="10" [imagePath]="'../assets/hayden.jpg'" [imageWidth]="'250'" [imageHeight]="'338'"  [zoomLenseRange]="'80'"  style="float:left" ></image-magnifier> to produce image magnifire at any place.
+
+Notes: following are some notes about properties
+
+resultDistance = to give distance to result box from the preview image
+imagePath = provide your image path here, it is recommended to use high resolution image here like 1200x1200.
+imageWidth, imageHeight = provide preiview image dimensions here, it can be as per your web page design
+zoomLenseRange = you can set zoom (lense size) range here. 
+
 
 ## Build
 
